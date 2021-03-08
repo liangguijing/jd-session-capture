@@ -34,3 +34,8 @@ frida-ps -U # USB设备
 frida-ps -R # 远程设置-Remote
 ```
 显示进程信息表示成功
+
+直接运行main.py或者
+```shell
+frida -U com.jingdong.app.mall -l e:\sslunpinning.js --no-pause
+```
